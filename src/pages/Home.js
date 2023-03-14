@@ -7,20 +7,8 @@ import Col from "../components/Col";
 function Home() {
   return (
     <div>
-      <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
         <h1>Olena Pelagenko</h1>
         <h2>Software Developer</h2>
-      </Hero>
-      <Container style={{ marginTop: 30 }}>
-        <Row>
-          <Col size="md-12">
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-12">
-          </Col>
-        </Row>
-      </Container>
     </div>
   );
 }
