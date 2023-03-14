@@ -1,9 +1,14 @@
-import React, { useState } from "react";
+import "./Contact.css";
 
-function Contact() {
+const Contact = () => {
   return (
-    <div>
-      <h1 className="text-center">Contact me</h1>
+    <div className="contact-container">
+      <h1 className="contact-title">Contact me</h1>
+      <h4>Email pelagenkolena@gmail.com</h4>
+      <h4>Phone +447879 547947</h4>
+      <h4>Address London, UK</h4>
+      <h4>LinkedIn https://www.linkedin.com/in/olena-pelagenko/</h4>
+      <h4>GitHub https://github.com/ljenchik</h4>
     </div>
   );
 }

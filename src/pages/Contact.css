@@ -1,0 +1,14 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contact-title {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.contact-container h4 {
+    margin: 20px 40px;
+}
