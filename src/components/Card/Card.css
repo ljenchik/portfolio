@@ -3,12 +3,19 @@
   flex-direction: column;
   flex-wrap: wrap;
   border: 3px dashed black;
+  border-radius: 10px;
   justify-content: center;
   gap: 10px;
 }
 
-.card-title {
+.front-card-title {
   text-align: center;
+  margin-top: 20px;
+}
+
+.back-card-title {
+  text-align: center;
+  margin: 20px;
 }
 
 .card-image {
@@ -19,7 +26,7 @@
 .flip-card {
   background-color: transparent;
   width: 400px;
-  height: 320px;
+  height: 350px;
   perspective: 1000px;
 }
 
@@ -49,11 +56,20 @@
 .flip-card-front {
   color: black;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .flip-card-back {
-  background-color: #2980b9;
-  color: white;
   border-radius: 10px;
   transform: rotateY(180deg);
+}
+
+.flip-card-back p {
+  margin: 10px;
+}
+
+.description {
+  text-align: justify;
 }
