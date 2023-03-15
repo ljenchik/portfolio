@@ -11,16 +11,6 @@ function Navbar() {
           isActive ? "nav-link active" : "nav-link"
         }
       >
-        Olena Pelagenko
-      </NavLink>
-
-      <NavLink
-        to="/"
-        end
-        className={({ isActive }) =>
-          isActive ? "nav-link active" : "nav-link"
-        }
-      >
         Home
       </NavLink>
 

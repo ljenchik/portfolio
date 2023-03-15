@@ -1,7 +1,7 @@
 .hero {
   position: fixed;
   top: 70px;
-  height: 500px;
+  height: 400px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -15,6 +15,12 @@
 
 .hero h1 {
   font-size: 60px;
-  padding-top: 140px;
-  margin-top: 0;
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+.hero h4 {
+  font-size: 30px;
 }
