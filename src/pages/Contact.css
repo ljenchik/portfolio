@@ -2,6 +2,13 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background-image: url('/public/images/white-bricks.png');
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+    font-family: 'Delius Swash Caps', cursive;
+    color: rgb(110,62,127);
+    gap: 20px;
 }
 
 .contact-title {
@@ -12,3 +19,21 @@
 .contact-container h4 {
     margin: 20px 40px;
 }
+
+
+.contact-container h1 {
+    font-size: 50px;
+  }
+  
+  .contact-container h4 {
+    font-size: 30px;
+  }
+  
+  .contact-container a {
+    text-decoration: none;
+    color: rgb(110,62,127);
+  }
+
+  .contact-container a:hover {
+    color: rgb(191,159,188);
+  }

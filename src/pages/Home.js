@@ -10,21 +10,21 @@ function Home() {
           <div className="my-info">
             <h1>Olena Pelagenko</h1>
             <h2>Software Developer</h2>
-            <h4>Based in London, UK</h4>
-            <h4>
+            <h5>Based in London, UK</h5>
+            <h5>
               <a href="mailto:pelagenkolena@gmail.com">
                 pelagenkolena@gmail.com
               </a>
-            </h4>
+            </h5>
             <div className="additional-links">
-              <h4>
+              <h5>
                 <a href="/contact">Contact me</a>
-              </h4>
-              <h4>
+              </h5>
+              <h5>
                 <a href="https://drive.google.com/file/d/1FcUEvwxfNU7hRDbPRi64ZR4loT4jZzNV/view?usp=sharing">
                   Download my CV
                 </a>
-              </h4>
+              </h5>
             </div>
           </div>
           <img src="./images/photo.png" />
@@ -34,22 +34,19 @@ function Home() {
       <Hero backgroundImage={"./images/white-bricks.png"}>
         <div className="hero-container">
         <img src="./images/family.png" />
-          <div className="who-am-i">
+        <div className="who-am-i">
             <div className="who-am-i-info">
-              <h1>Hi, I am Olena!</h1>
-              <h1>Nice to meet you!</h1>
-              <h2>
-                <p>I am an experienced maths teacher,</p>
-                <p> a career switcher and </p>
-                <p>a mother of two boys</p>
-              </h2>
+              <h2>Hi, I am Olena!</h2>
+              <h3>Nice to meet you!</h3>
+                <h5>I am a software developer, frontend web developer, experienced maths teacher and 
+                a mother of two boys</h5>
               <a href="/about">
-                <h2>
+                <h5>
                   <span className="nowrap">More about me</span>
-                </h2>
+                </h5>
               </a>
             </div>
-          </div>
+            </div>
         </div>
       </Hero>
 
@@ -57,20 +54,20 @@ function Home() {
         <div className="hero-container">
           <div className="skills">
             <div className="skills-info">
-              <h1>I am good at</h1>
-              <ul>
-                <li>JavaScript, TypeScript, React</li>
-                <li>HTML, CSS, Bootstrap</li>
-                <li>jQuery, Rest Api</li>
-                <li>Postgres, Knex, SQL</li>
-                <li>Python</li>
-                <li>GitHub</li>
-              </ul>
               <a href="/projects">
-                <h4>
+                <h2>
                   <span className="nowrap">Have a look at my projects</span>
-                </h4>
+                </h2>
               </a>
+              <ul>
+                <li><h5># JavaScript, TypeScript, React</h5></li>
+                <li><h5># HTML, CSS, Bootstrap</h5></li>
+                <li><h5># jQuery, Rest Api</h5></li>
+                <li><h5># Postgres, Knex, SQL</h5></li>
+                <li><h5># Python</h5></li>
+                <li><h5># GitHub</h5></li>
+              </ul>
+              
             </div>
           </div>
           <img src="./images/work.png" />

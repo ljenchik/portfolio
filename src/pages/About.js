@@ -36,7 +36,7 @@ function About() {
       <h2 className="about-subtitle">What do I like?</h2>
           <p>Reading, cooking, walking, nature, art</p>
       <h2 className="about-subtitle">What makes me happy?</h2>
-        <p>My family, random kindness, good books, movies and conversations, huge empty spaces</p>
+        <p>My family, random kindness, working code, good books, movies and conversations, huge empty spaces</p>
     </div>
   );
 }
