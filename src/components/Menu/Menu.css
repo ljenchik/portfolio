@@ -5,43 +5,49 @@
 
 .dropdown-menu {
     display: block;
+    
 }
   
   .menu-button {
     position: fixed;
     top: 0;
     right: 0;
-    background: transparent;
-    color: #d04a36;
+    background:  rgba(236, 227, 238, 0.16);
+    color: rgba(104,40,90,255);
     border: none;
     padding: 0.5rem 1rem 0.5rem 0;
     z-index: 1;
   }
   
   .menu-button:hover {
-    color: white;
+    color: black;
   }
   
   .menu-cross-button {
     position: fixed;
     top: 0;
     right: 0;
-    background-color: transparent;
-    color: #d04a36;
+    background-color:  rgba(236, 227, 238, 0.16);
+    color: rgba(104,40,90,255);
     padding: 0.5rem;
     border: none;
+  }
+
+  .menu-cross-button:hover {
+    color: black;
   }
   
   .menu-list{
     position: fixed;
     top: 0;
     right: 0;
-    background-color: transparent;
     list-style-type: none;
     z-index: 100;
     margin: 0;
     padding: 0;
     border-radius: 5px;
+    background: rgb(236, 227, 238);
+    font-family: 'Delius Swash Caps', cursive;
   }
   
   .menu-item {
@@ -50,7 +56,7 @@
   }
   
   .menu-link {
-    color: #d04a36;
+    color: rgba(104,40,90,255);
     font-size: larger;
     text-decoration: none;
   }

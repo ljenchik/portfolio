@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+
 .home-container {
     margin:0px;
     padding:0px;
@@ -19,10 +21,13 @@
     gap: 15px;
     margin-left: auto;
     margin-right: auto;
+    color: white;
+    font-family: 'Delius Swash Caps', cursive;
 }
 
 .my-info h1 {
     padding-top: 0px;
+    font-family: 'Delius Swash Caps', cursive;
 }
 
 .my-info a {
@@ -42,4 +47,47 @@
 .hero-container img {
     height: 400px;
     border-radius: 10px;
+}
+
+.who-am-i {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.who-am-i-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.who-am-i-info h1, h2 {
+    padding-top: 0px;
+    font-family: 'Delius Swash Caps', cursive;
+    color: rgb(110,62,127);
+    font-size: 50px;
+}
+
+.who-am-i-info h2 {
+    padding-top: 0px;
+    font-family: 'Delius Swash Caps', cursive;
+    color: rgb(110,62,127);
+    font-size: 30px;
+    width: 70%;
+}
+
+.who-am-i-info a {
+  text-decoration: none;
+}
+
+.who-am-i-info span:hover {
+    color: #c18bb6;
+    cursor: pointer;
+  }
+  
+
+.nowrap {
+    white-space: nowrap;
 }

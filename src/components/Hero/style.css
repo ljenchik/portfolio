@@ -1,11 +1,10 @@
 .hero {
   position: fixed;
-  top: 70px;
+  top: 50px;
   height: 400px;
   background-size: cover;
   background-position: center;
   position: relative;
-  background-image: url(hero.png);
 }
 
 .hero h1, .hero h2 {

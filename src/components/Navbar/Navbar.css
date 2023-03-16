@@ -1,5 +1,4 @@
 .navbar-container {
-  border: 1px dashed black;
   left: 0;
   position: fixed;
   top: 0;
@@ -9,16 +8,20 @@
   line-height: 1.7;
   display: flex;
   justify-content: center;
+  background-color: #9f7cad;
+  font-family: 'Delius Swash Caps', cursive;
 }
 
 .nav-link {
   text-decoration: none;
   padding: 10px;
+  color: white;
+
 }
 
 .nav-link:hover {
-  color: red;
   cursor: pointer;
+  color: black;
 }
 
 @media only screen and (max-width: 575px) {
