@@ -39,6 +39,12 @@
     color: #c18bb6;
 }
 
+.additional-links {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
 
 .home-section-container {
     margin-top: 80px !important;
@@ -51,13 +57,15 @@
 
 .who-am-i {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .who-am-i-info {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 20px;
@@ -67,14 +75,14 @@
     padding-top: 0px;
     font-family: 'Delius Swash Caps', cursive;
     color: rgb(110,62,127);
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .who-am-i-info h2 {
     padding-top: 0px;
     font-family: 'Delius Swash Caps', cursive;
     color: rgb(110,62,127);
-    font-size: 30px;
+    font-size: 25px;
     width: 70%;
 }
 
@@ -87,7 +95,49 @@
     cursor: pointer;
   }
   
-
 .nowrap {
     white-space: nowrap;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+.skills-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.skills-info h1 {
+    padding-top: 0px;
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.skills-info li {
+    color: white;
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 25px;
+}
+
+.skills-info a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.skills-info a:hover {
+    color: #c18bb6;
 }
