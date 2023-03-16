@@ -22,7 +22,7 @@ const Card = (props) => {
             <p>
               <a href={props.github}>{props.github}</a>
             </p>
-            {props.live === "" ? "" : <p> Live at: <a href={props.live} >{props.live}</a> </p>}
+            {props.live === "" ? "" : <p> <strong>Live at:</strong> <a href={props.live} >{props.live}</a> </p>}
           </div>
 
         </div>

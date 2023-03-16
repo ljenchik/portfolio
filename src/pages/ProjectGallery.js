@@ -40,8 +40,7 @@ const projects = [
     description:
       "This application displays a list of school departments, the number of employees " +
       "and the average salary for each of these departments. It displays a list of employees, "+
-      "searches employees born on a specific date or in the period between two given dates " +
-      "as well as adds, edits or deletes departments and employees",
+      "searches employees born on a specific date or in the period between two given dates",
     technologies: "Typescript, Node.js, React, PostgreSQL, Bootstrap, CSS, SQL",
     github: "https://github.com/ljenchik/school-departments-ts",
     live: "",
@@ -117,7 +116,7 @@ const projects = [
 const ProjectGallery = () => {
   return (
     <div className="projects-container">
-      <h1 className="projects-title">Projects</h1><div className="projects-container">
+      <h1 className="projects-title">Project Gallery</h1><div className="projects-container">
       {projects.map((project) => (
         <Card
           title={project.title}

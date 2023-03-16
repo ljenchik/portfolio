@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  border: 3px dashed gray;
+  border: 3px dashed rgb(110,62,127);
   border-radius: 10px;
   justify-content: center;
   gap: 10px;
@@ -11,11 +11,19 @@
 .front-card-title {
   text-align: center;
   margin-top: 20px;
+  font-family: 'Delius Swash Caps', cursive;
+  font-size: 25px;
+  color: rgb(110,62,127);
 }
 
 .back-card-title {
   text-align: center;
   margin: 20px;
+  font-size: 25px;
+}
+
+.flip-card-back h4, strong {
+  color: rgb(110,62,127);
 }
 
 .card-image {
@@ -54,7 +62,6 @@
 }
 
 .flip-card-front {
-  color: black;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -74,3 +81,4 @@
 .description {
   text-align: justify;
 }
+
