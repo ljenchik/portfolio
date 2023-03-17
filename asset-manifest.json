@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.48f678de.css",
-    "main.js": "/react-portfolio/static/js/main.30120f1c.js",
-    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/white-bricks.png": "/react-portfolio/static/media/white-bricks.8d5f6ace6a700795d51d.png",
-    "index.html": "/react-portfolio/index.html",
-    "main.48f678de.css.map": "/react-portfolio/static/css/main.48f678de.css.map",
-    "main.30120f1c.js.map": "/react-portfolio/static/js/main.30120f1c.js.map",
-    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/static/css/main.ffdc9dfc.css",
+    "main.js": "/static/js/main.020b31af.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/white-bricks.png": "/static/media/white-bricks.8d5f6ace6a700795d51d.png",
+    "index.html": "/index.html",
+    "main.ffdc9dfc.css.map": "/static/css/main.ffdc9dfc.css.map",
+    "main.020b31af.js.map": "/static/js/main.020b31af.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48f678de.css",
-    "static/js/main.30120f1c.js"
+    "static/css/main.ffdc9dfc.css",
+    "static/js/main.020b31af.js"
   ]
 }
