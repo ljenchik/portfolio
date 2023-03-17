@@ -27,13 +27,13 @@ function Home() {
               </h5>
             </div>
           </div>
-          <img src="./images/photo.png" />
+          <img src={"./images/photo.png"} />
         </div>
       </Hero>
 
       <Hero backgroundImage={"./images/purple-bricks.png"}>
         <div className="hero-container">
-        <img src="./images/family.png" />
+        <img src={"./images/family.png"} />
         <div className="who-am-i">
             <div className="who-am-i-info">
               <h2>Hi, I am Olena!</h2>
@@ -70,7 +70,7 @@ function Home() {
               
             </div>
           </div>
-          <img src="./images/work.png" />
+          <img src={"./images/work.png"} />
         </div>
       </Hero>
     </div>
