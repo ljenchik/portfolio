@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Overlock+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Overlock&family=Overlock+SC&display=swap');
 
 .home-container {
     margin:0px;
     padding:0px;
     background-color: rgba(236, 227, 238, 0.16);
+
 }
 
 .hero-container {
@@ -31,8 +34,9 @@
 }
 
 .my-info a {
-    color: white;
     text-decoration: none;
+    color: #521a54;
+
 }
 
 .my-info a:hover {
@@ -62,13 +66,13 @@
     flex-direction: column;
     align-items: center;
     gap: 25px;
-    color: rgb(110,62,127);
+    color: white;
     text-align: center;
 }
 
 .who-am-i-info h5 {
-    color: rgb(110,62,127);
     width: 60%;
+    color: white;
 }
 
 .who-am-i-info a {
@@ -109,7 +113,7 @@
 }
 
 .skills-info a {
-    color: white;
+    color: #521a54;
     text-decoration: none;
 }
 

@@ -5,8 +5,8 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  font-family: 'Delius Swash Caps', cursive;
-  color: white;
+  font-family: 'Overlock SC', cursive;
+  color: #521a54;
 }
 
 .hero h1 {
@@ -27,4 +27,5 @@
 
 .hero h5 {
   font-size: 20px;
+  font-family: 'Overlock', cursive;
 }

@@ -6,12 +6,13 @@
   border-radius: 10px;
   justify-content: center;
   gap: 10px;
+
 }
 
 .front-card-title {
   text-align: center;
   margin-top: 20px;
-  font-family: 'Delius Swash Caps', cursive;
+  font-family: 'Overlock', cursive;
   font-size: 25px;
   color: rgb(110,62,127);
 }
@@ -20,6 +21,8 @@
   text-align: center;
   margin: 20px;
   font-size: 25px;
+  font-family: 'Overlock', cursive;
+  color: rgb(110,62,127);
 }
 
 .flip-card-back h4, strong {
@@ -79,6 +82,6 @@
 }
 
 .description {
-  text-align: justify;
+  text-align: center;
 }
 

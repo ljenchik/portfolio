@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    color: black;
     background-color: rgba(236, 227, 238, 0.16);
 }
 
@@ -11,7 +10,7 @@
     text-align: center;
     margin: 10px;
     margin-top: 80px;
-    font-family: 'Delius Swash Caps', cursive;
+    font-family: 'Overlock', cursive;
     font-size: 60px;
     color: rgb(110,62,127);
 }
