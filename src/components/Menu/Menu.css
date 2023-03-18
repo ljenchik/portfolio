@@ -3,19 +3,23 @@
     padding: 0;
 }
 
+body {
+  background-color: rgba(86,27,79,255);
+}
+
 .dropdown-menu {
     display: block;
-    
 }
   
   .menu-button {
     position: fixed;
     top: 0;
     right: 0;
-    background:  rgba(236, 227, 238, 0.16);
-    color: rgba(104,40,90,255);
+    background-color: rgba(86,27,79,255) !important;
+    color: white;
     border: none;
-    padding: 0.5rem 1rem 0.5rem 0;
+    padding: 0.3rem 0.5rem;
+    margin: 0px;
     z-index: 1;
   }
   
@@ -31,6 +35,7 @@
     color: rgba(104,40,90,255);
     padding: 0.5rem;
     border: none;
+    margin: 0px;
   }
 
   .menu-cross-button:hover {
@@ -46,7 +51,7 @@
     margin: 0;
     padding: 0;
     border-radius: 5px;
-    background: rgb(236, 227, 238);
+    background: rgba(246, 241, 248, 0.999);
     font-family: 'Overlock', cursive;
 
   }

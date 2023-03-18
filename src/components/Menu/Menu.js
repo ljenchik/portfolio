@@ -16,7 +16,7 @@ function Menu() {
           hidden={!open}
           className="menu-button"
         >
-          <FontAwesomeIcon icon={faBars} size={"3x"} />
+          <FontAwesomeIcon icon={faBars} size={"2x"} />
         </button>
 
         <ul hidden={open} onClick={() => setOpen(!open)} className="menu-list">
