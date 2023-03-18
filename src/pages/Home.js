@@ -64,13 +64,12 @@ function Home() {
                 <li><h5># HTML, CSS, Bootstrap</h5></li>
                 <li><h5># jQuery, Rest Api</h5></li>
                 <li><h5># Postgres, Knex, SQL</h5></li>
-                <li><h5># Python</h5></li>
-                <li><h5># GitHub</h5></li>
+                <li><h5># Python, GitHub </h5></li>
               </ul>
               
             </div>
           </div>
-          <img src={"./images/work.png"} />
+          <img src={"./images/work.png"} id="laptop" />
         </div>
       </Hero>
     </div>
