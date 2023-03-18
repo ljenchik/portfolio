@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    background-color: rgba(236, 227, 238, 0.16);
+    background-color: rgba(236, 227, 238, 0.16) !important;
     margin-bottom: 20px;
 }
 
