@@ -2,7 +2,9 @@
   height: 70px;
   width: 100vw;
   background: rgba(86,27,79,255);
-  position: absolute;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
 
 .footer span {
