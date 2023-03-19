@@ -1,6 +1,6 @@
 .footer {
   height: 70px;
-  width: 100%;
+  width: 100vw;
   background: rgba(86,27,79,255);
   position: absolute;
 }
