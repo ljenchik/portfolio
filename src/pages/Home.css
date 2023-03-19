@@ -86,8 +86,8 @@
 /* Third section */
 .skills {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -99,15 +99,7 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-}
-.skills-info li {
-    list-style-type: none;
-}
-
-.skills-info li {
-    font-size: 35px;
-    padding: 10px;
-
+    padding-bottom:60px;
 }
 
 .skills-info a {
@@ -125,7 +117,17 @@
    .hero-container {
     flex-direction: column;
    }
+
+.skills-info {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+   }
    
+   .skills-info span {
+    font-size: 25px;
+}
+
     .hero-container img {
         height: 100px;
         position: relative;
@@ -154,7 +156,7 @@
       }
       
       .hero h5 {
-        font-size: 15px;
+        font-size: 20px;
         margin-bottom: 10px;
       }
   }

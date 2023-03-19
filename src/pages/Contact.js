@@ -16,7 +16,7 @@ const Contact = () => {
         <h4> <FontAwesomeIcon icon={faLocationDot} /> London, UK</h4>
       
       </div>
-      <ContactForm />
+      {/* <ContactForm /> */}
     </div></div>
   );
 }

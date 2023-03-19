@@ -1,8 +1,8 @@
 .footer {
-  min-height: 70px;
+  height: 70px;
+  width: 100%;
   background: rgba(86,27,79,255);
-  position: relative;
-  z-index: 2;
+  position: absolute;
 }
 
 .footer span {
