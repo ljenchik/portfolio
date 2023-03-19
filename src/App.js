@@ -12,18 +12,16 @@ import Wrapper from './components/Wrapper';
 function App() {
   return (
     <Router >
-      <div>
         <Header />
-        {/* <Wrapper> */}
+        <Wrapper>
           <Routes >
             <Route path="/" element={<Home/>} />
             <Route path="/projects" element={<ProjectGallery/>} />
             <Route path="/about" element={<About/>} />
             <Route path="/contact" element={<Contact/>} />
           </Routes>
-        {/* </Wrapper> */}
+        </Wrapper>
         <Footer />
-      </div>
     </Router>
   );
 }
