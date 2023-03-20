@@ -5,6 +5,7 @@ import "./Home.css";
 function Home() {
   return (
     <div className="home-container">
+
       <Hero backgroundImage={"./images/white-bricks.png"}>
         <div className="hero-container">
           <div className="my-info">
@@ -27,14 +28,13 @@ function Home() {
               </h5>
             </div>
           </div>
-          <img src={"./images/photo.png"} />
+          <img src={"./images/photo.png"} id="my-info-image"/>
         </div>
       </Hero>
 
       <Hero backgroundImage={"./images/purple-bricks.png"}>
         <div className="hero-container">
         <img src={"./images/family.png"} />
-        <div className="who-am-i">
             <div className="who-am-i-info">
               <h2>Hi, I am Olena!</h2>
               <h3>Nice to meet you!</h3>
@@ -45,7 +45,6 @@ function Home() {
                   <span className="nowrap">More about me</span>
                 </h5>
               </a>
-            </div>
             </div>
         </div>
       </Hero>
