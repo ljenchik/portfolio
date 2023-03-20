@@ -5,7 +5,6 @@
 .home-container {
     margin:0px;
     padding:0px;
-    /* background-color: rgba(86,27,79,255); */
 }
 
 .hero-container {
@@ -77,7 +76,7 @@
 
 .who-am-i-info a {
   text-decoration: none;
-  padding-bottom: 0px;
+  padding-bottom: 5px;
 }
 
 .who-am-i-info span:hover {
@@ -112,6 +111,10 @@
 
 .skills-info a:hover {
     color: rgb(191,159,188);
+}
+
+.skills-info p {
+    margin: px;
 }
 
 /* **************************** */
@@ -169,7 +172,7 @@
     .hero-container {
         align-items: center;
         margin-top: 0px;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
     
     .hero-container img {
@@ -180,18 +183,19 @@
         padding-bottom: 0px;
     }
 
-    .hero h1, h2 {
-        margin-top: 10px;
+    .who-am-i-info {
+        margin-top: 30px;
     }
 
-      .hero h5 {
-        font-size: 20px;
-      }
-
-      .who-am-i-info a {
+    .skills {
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+      
+    .who-am-i-info a {
         text-decoration: none;
         padding-bottom: 10px;
-      }
+    }
   }
 
   @media only screen and (min-width: 768px) {
