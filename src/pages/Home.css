@@ -114,7 +114,7 @@
 }
 
 .skills-info p {
-    margin: px;
+    margin: 0px;
 }
 
 /* **************************** */
@@ -199,7 +199,6 @@
   }
 
   @media only screen and (min-width: 768px) {
-    
       .hero h5 {
         font-size: 25px;
       }
