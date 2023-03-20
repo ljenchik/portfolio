@@ -10,7 +10,7 @@ function About() {
       <h1 className="about-title">Hi, I am Olena! Nice to meet you!</h1>
       <h2 className="about-subtitle">Who am I?</h2>
           <p>
-            I am a software developer, an experienced maths teacher and a mother of
+            I am a software developer, a frontend web developer, an experienced maths teacher and a mother of
             two boys{" "}
           </p>
           <p>
@@ -24,7 +24,7 @@ function About() {
           </p>
           <p>
             I went on to complete the EPAM Python Online UA course, the
-            TechSwitch retraining program and the Trilogy Skills Bootcamp in
+            TechSwitch Retraining Program and the Trilogy Skills Bootcamp in
             Front-End Web Development.
           </p>
           <p>
@@ -41,7 +41,7 @@ function About() {
       </p>
       <p># Hardworking and self disciplined lifelong learner</p>
       <p> # Excellent analytical and problem solving skills</p>
-      <p># English Ukrainian Russian</p>
+      <p># Languages: English, Ukrainian, Russian</p>
       <h2 className="about-subtitle">What do I like?</h2>
       <p>Reading, cooking, walking, nature, art</p>
       <h2 className="about-subtitle">What makes me happy?</h2>

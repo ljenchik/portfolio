@@ -17,6 +17,13 @@
 } 
 
 
+.contact-subtitle {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  margin-bottom: 30px;
+} 
+
 .main-contact-container {
   display: flex;
   flex-wrap: wrap;
@@ -44,3 +51,24 @@
 .contact-container a:hover {
   color: rgb(191, 159, 188);
 }
+
+/* ************************* */
+@media only screen and (max-width: 575px) {
+  .contact-title {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 45px;
+  } 
+  
+  .contact-subtitle {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+  } 
+  
+  .contact-container h4 {
+    font-size: 25px;
+  }
+};
+  

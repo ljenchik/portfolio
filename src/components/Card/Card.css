@@ -25,8 +25,13 @@
   color: rgb(110,62,127);
 }
 
+.flip-card-back h4 {
+  margin: 5px;
+}
+
 .flip-card-back h4, strong {
   color: rgb(110,62,127);
+
 }
 
 .card-image {
