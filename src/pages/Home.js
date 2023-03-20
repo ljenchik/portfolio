@@ -73,5 +73,3 @@ function Home() {
 }
 
 export default Home;
-
-// Your Career is a Layer of Bricks

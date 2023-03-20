@@ -1,11 +1,16 @@
 import "./About.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faLocationDot, faSmileWink } from "@fortawesome/free-solid-svg-icons";
+
+
 function About() {
   return (
     <div className="about-container">
       <h1 className="about-title">Hi, I am Olena! Nice to meet you!</h1>
       <h2 className="about-subtitle">Who am I?</h2>
           <p>
-            I am asoftware developer, experienced maths teacher and a mother of
+            I am a software developer, an experienced maths teacher and a mother of
             two boys{" "}
           </p>
           <p>
@@ -31,18 +36,18 @@ function About() {
           </p>
       <h2 className="about-subtitle"> What am I good at?</h2>
       <p>
-        JavaScript, TypeScript, React, Python, Knex, Postgres, GitHub, jQuery,
-        HTML, CSS, Bootstrap, SQL, Rest Api
+        # JavaScript, TypeScript, React, Python, Knex, Postgres, GitHub, jQuery,
+        HTML, CSS, Bootstrap, SQL, Rest Apis
       </p>
-      <p>Hardworking and self disciplined lifelong learner</p>
-      <p>Excellent analytical and problem solving skills</p>
-      <p>English Ukrainian Russian</p>
+      <p># Hardworking and self disciplined lifelong learner</p>
+      <p> # Excellent analytical and problem solving skills</p>
+      <p># English Ukrainian Russian</p>
       <h2 className="about-subtitle">What do I like?</h2>
       <p>Reading, cooking, walking, nature, art</p>
       <h2 className="about-subtitle">What makes me happy?</h2>
       <p>
-        My family, random kindness, working code, good books, movies and
-        conversations, huge empty spaces
+        My family, random kindness, working code <FontAwesomeIcon icon={faSmileWink} />, good books, movies and
+        conversations, jazz, huge empty spaces
       </p>
     </div>
   );
