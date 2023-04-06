@@ -23,12 +23,21 @@ const projects = [
     live: "https://ljenchik.github.io/weather-dashboard/",
   },
   {
+    title: "Create A Card",
+    image: "./images/create-a-card.png",
+    description:
+      "A single page web application that allows users to create and download custom greetings cards; teamwork",
+    technologies: "JavaScript, React, CSS, Material UI, Netlify",
+    github: "https://github.com/Room4Renzo/Create-a-Card",
+    live: "https://loquacious-treacle-8f6c4c.netlify.app",
+  },
+  {
     title: "Space Exploring",
     image: "./images/space-exploring.png",
     description:
       "Space Exploring is a website about space for children and teenagers." +
       " It allows users to explore interesting facts about the solar system, " + 
-      "view space images taken by Mars rovers, and score in the solar system quiz",
+      "view space images taken by Mars rovers, and score in the solar system quiz; teamwork",
     technologies:
       "JavaScript,Bootstrap, CSS, jQuery, Font Awesome, NASA Open API, The Solar System OpenData",
     github: "https://github.com/ljenchik/space-exploring",
