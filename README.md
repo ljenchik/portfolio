@@ -5,7 +5,7 @@
 ### Site is live at https://unique-churros-035b06.netlify.app/
 
 I created my portfolio to showcase my work, skills and knowledge.
-It includes working links to my projects on GitHub, contact details, information about me and CV.
+It includes working links to my projects on GitHub and contact details.
 
 Technologies: JavaScript, React, CSS, Netlify.
 
