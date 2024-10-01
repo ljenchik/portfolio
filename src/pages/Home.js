@@ -33,7 +33,7 @@ function Home() {
 
             <Hero backgroundImage={"./images/purple-bricks.png"}>
                 <div className="hero-container">
-                    {/* <img src={"./images/family.png"} /> */}
+                    <img src={"./images/scene.png"} />
                     <div className="who-am-i-info">
                         <h2>Hi, I am Olena!</h2>
                         <h3>Nice to meet you!</h3>
@@ -41,11 +41,11 @@ function Home() {
                             I am a software developer, frontend web developer,
                             experienced maths teacher and a mother of two boys
                         </h5>
-                        <a href="/about">
-                            {/* <h5>
+                        {/* <a href="/about"> */}
+                        {/* <h5>
                   <span className="nowrap">More about me</span>
                 </h5> */}
-                        </a>
+                        {/* </a> */}
                     </div>
                 </div>
             </Hero>
