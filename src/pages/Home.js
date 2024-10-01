@@ -16,16 +16,16 @@ function Home() {
                                 pelagenkolena@gmail.com
                             </a>
                         </h5>
-                        <div className="additional-links">
-                            <h5>
-                                <a href="/contact">Contact me</a>
-                            </h5>
-                            {/* <h5>
+                        {/* <div className="additional-links"> */}
+                        {/* <h5>
+                <a href="/contact">Contact me</a>
+              </h5> */}
+                        {/* <h5>
                 <a href="https://drive.google.com/file/d/1FcUEvwxfNU7hRDbPRi64ZR4loT4jZzNV/view?usp=sharing">
                   Download my CV
                 </a>
               </h5> */}
-                        </div>
+                        {/* </div> */}
                     </div>
                     <img src={"./images/photo.png"} id="my-info-image" />
                 </div>
@@ -33,7 +33,7 @@ function Home() {
 
             <Hero backgroundImage={"./images/purple-bricks.png"}>
                 <div className="hero-container">
-                    <img src={"./images/family.png"} />
+                    {/* <img src={"./images/family.png"} /> */}
                     <div className="who-am-i-info">
                         <h2>Hi, I am Olena!</h2>
                         <h3>Nice to meet you!</h3>
